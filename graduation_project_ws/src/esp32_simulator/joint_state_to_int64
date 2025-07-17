@@ -1,0 +1,77 @@
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import JointState
+from std_msgs.msg import Int64
+
+class JointStateEncoder(Node):
+    def __init__(self):
+        super().__init__('joint_state_encoder')
+
+        # Parameters
+        self.declare_parameter('update_interval', 0.1)
+        self.declare_parameter('threshold', 0.01)
+        self.update_interval = self.get_parameter('update_interval').get_parameter_value().double_value
+        self.threshold = self.get_parameter('threshold').get_parameter_value().double_value
+
+        # Subscribers and Publishers
+        self.subscription = self.create_subscription(
+            JointState,
+            '/joint_states',
+            self.joint_states_callback,
+            10
+        )
+        self.publisher = self.create_publisher(Int64, '/joint_states_int64', 10)
+
+        # Buffer and latest positions
+        self.buffer = None
+        self.latest_positions = None
+
+        # Timer to check for changes
+        self.timer = self.create_timer(self.update_interval, self.timer_callback)
+
+    def joint_states_callback(self, msg):
+        self.latest_positions = list(msg.position)
+
+    def timer_callback(self):
+        if self.latest_positions is None:
+            return
+
+        if self.buffer is None:
+            # Initialize buffer with first valid message
+            self.buffer = list(self.latest_positions)
+            encoded = self.encode_joint_positions(self.buffer)
+            self.publisher.publish(Int64(data=encoded))
+            return
+
+        # Check if any joint position has changed beyond threshold
+        for i in range(len(self.latest_positions)):
+            if abs(self.latest_positions[i] - self.buffer[i]) > self.threshold:
+                # Update buffer and encode
+                self.buffer = list(self.latest_positions)
+                encoded = self.encode_joint_positions(self.buffer)
+                self.publisher.publish(Int64(data=encoded))
+                break  # No need to check further after one change
+
+    def encode_joint_positions(self, positions):
+        parts = []
+        for pos in positions:
+            # Add 3.14 to each joint position before processing
+            adjusted = pos + 3.14
+            scaled = round(adjusted * 100)
+            # Clamp values to [0, 999] to ensure 3-digit representation
+            if scaled < 0:
+                scaled = 0
+            elif scaled > 999:
+                scaled = 999
+            parts.append(f"{scaled:03d}")  # Format as 3-digit string
+        full_str = '1' + ''.join(parts)
+        return int(full_str)
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = JointStateEncoder()
+    rclpy.spin(node)
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

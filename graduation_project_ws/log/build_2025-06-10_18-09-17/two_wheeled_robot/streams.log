@@ -1,0 +1,45 @@
+[0.278s] Invoking command in '/home/salem/graduation_project_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salem/ros2_ws/install/my_robot_controller:/home/salem/ws_moveit2/install/moveit_configs_utils:/home/salem/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/salem/graduation_project_ws/build/two_wheeled_robot -- -j16 -l16
+[0.373s] Invoked command in '/home/salem/graduation_project_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salem/ros2_ws/install/my_robot_controller:/home/salem/ws_moveit2/install/moveit_configs_utils:/home/salem/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/salem/graduation_project_ws/build/two_wheeled_robot -- -j16 -l16
+[0.376s] Invoking command in '/home/salem/graduation_project_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salem/ros2_ws/install/my_robot_controller:/home/salem/ws_moveit2/install/moveit_configs_utils:/home/salem/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/salem/graduation_project_ws/build/two_wheeled_robot
+[0.417s] -- Install configuration: ""
+[0.417s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/config
+[0.417s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch
+[0.417s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/two_wheeled_robot.launch.py
+[0.417s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/maps
+[0.417s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes
+[0.417s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_5.stl
+[0.417s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_7.stl
+[0.417s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_6.part
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_2.part
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_2.stl
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_3.stl
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_5.part
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_3.part
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_4.part
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_4.stl
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_7.part
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_6.stl
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/models
+[0.418s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/params
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz/rviz_basic_settings.rviz
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/src
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/two_wheeled_robot.urdf
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/worlds
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/ament_index/resource_index/package_run_dependencies/two_wheeled_robot
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/ament_index/resource_index/parent_prefix_path/two_wheeled_robot
+[0.419s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.sh
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.dsv
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.sh
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.dsv
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.bash
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.sh
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.zsh
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.dsv
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/ament_index/resource_index/packages/two_wheeled_robot
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig.cmake
+[0.420s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig-version.cmake
+[0.421s] -- Up-to-date: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.xml
+[0.463s] Invoked command in '/home/salem/graduation_project_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salem/ros2_ws/install/my_robot_controller:/home/salem/ws_moveit2/install/moveit_configs_utils:/home/salem/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/salem/graduation_project_ws/build/two_wheeled_robot

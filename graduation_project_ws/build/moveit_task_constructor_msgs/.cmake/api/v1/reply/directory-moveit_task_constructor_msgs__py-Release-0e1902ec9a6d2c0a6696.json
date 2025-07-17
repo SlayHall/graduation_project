@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "moveit_task_constructor_msgs__py",
+		"source" : "/home/salem/graduation_project_ws/build/moveit_task_constructor_msgs/moveit_task_constructor_msgs__py"
+	}
+}

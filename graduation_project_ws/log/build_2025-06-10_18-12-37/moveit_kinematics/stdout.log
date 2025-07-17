@@ -1,0 +1,122 @@
+[ 21%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 21%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/chainiksolver_vel_mimic_svd.cpp.o[0m
+[ 26%] [32mBuilding CXX object lma_kinematics_plugin/CMakeFiles/moveit_lma_kinematics_plugin.dir/src/lma_kinematics_plugin.cpp.o[0m
+[ 31%] Built target gtest_main
+[ 36%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[ 42%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[ 47%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 52%] Built target gtest
+[ 57%] [32m[1mLinking CXX shared library libmoveit_lma_kinematics_plugin.so[0m
+[ 57%] Built target moveit_lma_kinematics_plugin
+[ 63%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[ 63%] Built target moveit_srv_kinematics_plugin
+[ 68%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_base.so[0m
+[ 73%] [32m[1mLinking CXX shared library libmoveit_kdl_kinematics_plugin.so[0m
+[ 73%] Built target moveit_cached_ik_kinematics_base
+[ 73%] Built target moveit_kdl_kinematics_plugin
+[ 84%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_plugin.dir/src/cached_ik_kinematics_plugin.cpp.o[0m
+[ 84%] [32mBuilding CXX object test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable benchmark_ik[0m
+[ 89%] Built target benchmark_ik
+[ 94%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_plugin.so[0m
+[ 94%] Built target moveit_cached_ik_kinematics_plugin
+[100%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[100%] Built target test_kinematics_plugin
+-- Install configuration: "Release"
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/kdl_kinematics_plugin_description.xml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/lma_kinematics_plugin_description.xml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/srv_kinematics_plugin_description.xml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/cached_ik_kinematics_plugin_description.xml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+-- Up-to-date: /home/salem/graduation_project_ws/install/moveit_kinematics/include
+-- Up-to-date: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+-- Up-to-date: /home/salem/graduation_project_ws/install/moveit_kinematics/include
+-- Up-to-date: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/lma_kinematics_plugin
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/lma_kinematics_plugin/lma_kinematics_plugin.h
+-- Up-to-date: /home/salem/graduation_project_ws/install/moveit_kinematics/include
+-- Up-to-date: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/srv_kinematics_plugin
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-singular-test.yaml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-test.yaml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-test.yaml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-singular-test.yaml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+-- Up-to-date: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma.test.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma-singular.test.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma.test.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma-singular.test.py
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+-- Set runtime path of "/home/salem/graduation_project_ws/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik" to ""
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+-- Set runtime path of "/home/salem/graduation_project_ws/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin" to ""
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.9
+-- Set runtime path of "/home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.9" to ""
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.9
+-- Set runtime path of "/home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.9" to ""
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+-- Set runtime path of "/home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so" to ""
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.9
+-- Set runtime path of "/home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.9" to ""
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.9
+-- Set runtime path of "/home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.9" to ""
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport.cmake
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport-release.cmake
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+-- Installing: /home/salem/graduation_project_ws/install/moveit_kinematics/share/moveit_kinematics/package.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="LabVolt5250A0">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import LabVolt5250A0 urdf file -->
+    <xacro:include filename="$(find two_wheeled_robot)/urdf/two_wheeled_robot.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="LabVolt5250A0.ros2_control.xacro" />
+
+
+    <xacro:LabVolt5250A0_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

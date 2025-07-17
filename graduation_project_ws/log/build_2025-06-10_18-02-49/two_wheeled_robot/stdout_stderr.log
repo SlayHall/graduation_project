@@ -1,0 +1,63 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/salem/graduation_project_ws/build/two_wheeled_robot
+-- Install configuration: ""
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/config
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/two_wheeled_robot.launch.py
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/maps
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_5.stl
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_7.stl
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_6.part
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_2.part
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_2.stl
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_3.stl
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_5.part
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_3.part
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_4.part
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_4.stl
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_7.part
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/part_6.stl
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/models
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/params
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz/rviz_basic_settings.rviz
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/src
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/two_wheeled_robot.urdf
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/worlds
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/ament_index/resource_index/package_run_dependencies/two_wheeled_robot
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/ament_index/resource_index/parent_prefix_path/two_wheeled_robot
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.sh
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.sh
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.dsv
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.bash
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.sh
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.zsh
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.dsv
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/ament_index/resource_index/packages/two_wheeled_robot
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig.cmake
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig-version.cmake
+-- Installing: /home/salem/graduation_project_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.xml

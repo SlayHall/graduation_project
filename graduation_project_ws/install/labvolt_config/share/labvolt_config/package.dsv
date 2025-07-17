@@ -1,0 +1,8 @@
+source;share/labvolt_config/hook/cmake_prefix_path.ps1
+source;share/labvolt_config/hook/cmake_prefix_path.dsv
+source;share/labvolt_config/hook/cmake_prefix_path.sh
+source;share/labvolt_config/local_setup.bash
+source;share/labvolt_config/local_setup.dsv
+source;share/labvolt_config/local_setup.ps1
+source;share/labvolt_config/local_setup.sh
+source;share/labvolt_config/local_setup.zsh
