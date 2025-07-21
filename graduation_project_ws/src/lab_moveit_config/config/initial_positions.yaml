@@ -1,0 +1,9 @@
+# Default initial positions for lablolt5250a0_description_gripper's ros2_control fake system
+
+initial_positions:
+  Revolute 1: 0
+  Revolute 2: 0
+  Revolute 3: 0
+  Revolute 4: 0
+  Revolute 5: 0
+  Slider 1: 0

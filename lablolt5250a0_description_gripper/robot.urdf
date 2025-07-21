@@ -1,0 +1,254 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/014a20f50428bdbec6a33164/w/f323398f0330f594139dc806/e/e7819094eb14ffb5fdca6208 -->
+<robot name="lablolt5250a0_description_gripper">
+  <!-- Link part_1 -->
+  <link name="part_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1 -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_1.stl"/>
+      </geometry>
+      <material name="part_1_material">
+        <color rgba="0.615686 0.811765 0.929412 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_2 -->
+  <link name="part_2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_2 -->
+    <visual>
+      <origin xyz="0.061 -1.3831e-17 0.2285" rpy="3.14159 -0 7.46023e-62"/>
+      <geometry>
+        <mesh filename="package://assets/part_2.stl"/>
+      </geometry>
+      <material name="part_2_material">
+        <color rgba="0.647059 0.647059 0.647059 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.061 -1.3831e-17 0.2285" rpy="3.14159 -0 7.46023e-62"/>
+      <geometry>
+        <mesh filename="package://assets/part_2.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_3 -->
+  <link name="part_3">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_3 -->
+    <visual>
+      <origin xyz="0.0665 0.381473 -0.089" rpy="1.5708 -6.75229e-32 7.88861e-31"/>
+      <geometry>
+        <mesh filename="package://assets/part_3.stl"/>
+      </geometry>
+      <material name="part_3_material">
+        <color rgba="0.231373 0.380392 0.705882 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0665 0.381473 -0.089" rpy="1.5708 -6.75229e-32 7.88861e-31"/>
+      <geometry>
+        <mesh filename="package://assets/part_3.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_4 -->
+  <link name="part_4">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_4 -->
+    <visual>
+      <origin xyz="0.0665 0.747473 -0.05275" rpy="1.5708 3.96473e-31 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_4.stl"/>
+      </geometry>
+      <material name="part_4_material">
+        <color rgba="0.231373 0.380392 0.705882 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0665 0.747473 -0.05275" rpy="1.5708 3.96473e-31 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_4.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_5 -->
+  <link name="part_5">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_5 -->
+    <visual>
+      <origin xyz="0.0665 0.977473 -0.0313886" rpy="1.5708 4.05366e-43 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_5.stl"/>
+      </geometry>
+      <material name="part_5_material">
+        <color rgba="0.231373 0.380392 0.705882 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0665 0.977473 -0.0313886" rpy="1.5708 4.05366e-43 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_5.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_6 -->
+  <link name="part_6">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_6 -->
+    <visual>
+      <origin xyz="0.0665 -0.00075 1.01889" rpy="3.14159 -0 5.95794e-43"/>
+      <geometry>
+        <mesh filename="package://assets/part_6.stl"/>
+      </geometry>
+      <material name="part_6_material">
+        <color rgba="0.231373 0.380392 0.705882 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0665 -0.00075 1.01889" rpy="3.14159 -0 5.95794e-43"/>
+      <geometry>
+        <mesh filename="package://assets/part_6.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_7 -->
+  <link name="part_7">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_7 -->
+    <visual>
+      <origin xyz="0.0665 1.05689 0.00075" rpy="1.5708 5.93537e-43 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_7.stl"/>
+      </geometry>
+      <material name="part_7_material">
+        <color rgba="0.917647 0.917647 0.917647 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0665 1.05689 0.00075" rpy="1.5708 5.93537e-43 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_7.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from part_6 to part_7 -->
+  <joint name="Slider 1" type="prismatic">
+    <origin xyz="-1.38778e-17 1.0842e-19 -0.038" rpy="1.5708 1.57772e-30 3.9443e-31"/>
+    <parent link="part_6"/>
+    <child link="part_7"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.04" upper="0"/>
+  </joint>
+  <!-- Link part_8 -->
+  <link name="part_8">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_8 -->
+    <visual>
+      <origin xyz="0.0665 -1.05689 -0.00075" rpy="-1.5708 7.1322e-33 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_8.stl"/>
+      </geometry>
+      <material name="part_8_material">
+        <color rgba="0.917647 0.917647 0.917647 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0665 -1.05689 -0.00075" rpy="-1.5708 7.1322e-33 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_8.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from part_6 to part_8 -->
+  <joint name="Slider 2" type="prismatic">
+    <origin xyz="1.17961e-15 -1.74611e-15 -0.038" rpy="-1.5708 7.49401e-16 1.51823e-15"/>
+    <parent link="part_6"/>
+    <child link="part_8"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.04" upper="-1.74622e-15"/>
+    <mimic joint="Slider 1" multiplier="1.0"/>
+  </joint>
+  <!-- Joint from part_5 to part_6 -->
+  <joint name="Revolute 5" type="revolute">
+    <origin xyz="-1.66533e-16 -0.041413 -0.0321386" rpy="-1.5708 -1.84933e-15 1.43757e-15"/>
+    <parent link="part_5"/>
+    <child link="part_6"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
+  </joint>
+  <!-- Joint from part_4 to part_5 -->
+  <joint name="Revolute 4" type="revolute">
+    <origin xyz="-1.47105e-15 -0.23 -0.0213614" rpy="-6.70734e-15 1.06007e-14 -1.80125e-14"/>
+    <parent link="part_4"/>
+    <child link="part_5"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
+  </joint>
+  <!-- Joint from part_3 to part_4 -->
+  <joint name="Revolute 3" type="revolute">
+    <origin xyz="0 -0.366 -0.03625" rpy="6.14954e-15 -2.64151e-15 4.03745e-16"/>
+    <parent link="part_3"/>
+    <child link="part_4"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-2.0944" upper="2.0944"/>
+  </joint>
+  <!-- Joint from part_2 to part_3 -->
+  <joint name="Revolute 2" type="revolute">
+    <origin xyz="-0.0055 -0.089 -0.152973" rpy="1.5708 -5.53595e-15 -8.05484e-15"/>
+    <parent link="part_2"/>
+    <child link="part_3"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-2.0944" upper="0.349066"/>
+  </joint>
+  <!-- Joint from part_1 to part_2 -->
+  <joint name="Revolute 1" type="revolute">
+    <origin xyz="-0.061 7.70547e-17 0.2285" rpy="3.14159 8.39705e-32 -1.249e-16"/>
+    <parent link="part_1"/>
+    <child link="part_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="3.14159"/>
+  </joint>
+</robot>

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: labvolt5250a0_description
+    relative_path: urdf/robot.urdf
+  srdf:
+    relative_path: config/lablolt5250a0_description_gripper.srdf
+  package_settings:
+    author_name: salem aburubia
+    author_email: salemaburubia@gmail.com
+    generated_timestamp: 1752963239
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

@@ -1,0 +1,5 @@
+[0.339s] Invoking command in '/home/salem/graduation_project/graduation_project_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salem/ws_moveit2/install/moveit_configs_utils:/home/salem/ws_moveit2/install/launch_param_builder:/home/salem/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/salem/graduation_project/graduation_project_ws/build/micro_ros_setup -- -j16 -l16
+[0.348s] [0mCMake Error: The current CMakeCache.txt directory /home/salem/graduation_project/graduation_project_ws/build/micro_ros_setup/CMakeCache.txt is different than the directory /home/salem/graduation_project_ws/build/micro_ros_setup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.364s] [0mCMake Error: The source directory "/home/salem/graduation_project_ws/src/micro_ros_setup" does not exist.
+[0.364s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.365s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1

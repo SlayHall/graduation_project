@@ -1,0 +1,21 @@
+[0.284s] Invoking command in '/home/salem/graduation_project/graduation_project_ws/build/labvolt5250a0_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salem/graduation_project/graduation_project_ws/install/moveit_configs_utils:/home/salem/graduation_project/graduation_project_ws/install/launch_param_builder:/home/salem/ws_moveit2/install/moveit_configs_utils:/home/salem/ws_moveit2/install/launch_param_builder:/home/salem/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/salem/graduation_project/graduation_project_ws/src/lablolt5250a0_description_gripper -DCMAKE_INSTALL_PREFIX=/home/salem/graduation_project/graduation_project_ws/install/labvolt5250a0_description
+[0.367s] -- The C compiler identification is GNU 11.4.0
+[0.429s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.558s] -- Detecting C compiler ABI info - done
+[0.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.566s] -- Detecting C compile features
+[0.566s] -- Detecting C compile features - done
+[0.568s] -- Detecting CXX compiler ABI info
+[0.712s] -- Detecting CXX compiler ABI info - done
+[0.719s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.719s] -- Detecting CXX compile features
+[0.719s] -- Detecting CXX compile features - done
+[0.737s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.955s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.423s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.680s] -- Added test 'lint_cmake' to check CMake code style
+[1.685s] -- Added test 'xmllint' to check XML markup files
+[1.692s] -- Configuring done
+[1.695s] -- Generating done
+[1.697s] -- Build files have been written to: /home/salem/graduation_project/graduation_project_ws/build/labvolt5250a0_description

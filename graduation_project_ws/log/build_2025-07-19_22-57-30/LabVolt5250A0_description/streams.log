@@ -1,0 +1,22 @@
+[0.319s] Invoking command in '/home/salem/graduation_project/graduation_project_ws/build/LabVolt5250A0_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salem/ws_moveit2/install/moveit_configs_utils:/home/salem/ws_moveit2/install/launch_param_builder:/home/salem/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/salem/graduation_project/graduation_project_ws/src/lablolt5250a0_description_gripper -DCMAKE_INSTALL_PREFIX=/home/salem/graduation_project/graduation_project_ws/install/LabVolt5250A0_description
+[0.378s] -- The C compiler identification is GNU 11.4.0
+[0.431s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.522s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.522s] -- Detecting C compile features
+[0.523s] -- Detecting C compile features - done
+[0.525s] -- Detecting CXX compiler ABI info
+[0.612s] -- Detecting CXX compiler ABI info - done
+[0.617s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.617s] -- Detecting CXX compile features
+[0.618s] -- Detecting CXX compile features - done
+[0.626s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.773s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.933s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.978s] WARNING: Package name "LabVolt5250A0_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.040s] -- Added test 'lint_cmake' to check CMake code style
+[1.042s] -- Added test 'xmllint' to check XML markup files
+[1.045s] -- Configuring done
+[1.047s] -- Generating done
+[1.049s] -- Build files have been written to: /home/salem/graduation_project/graduation_project_ws/build/LabVolt5250A0_description

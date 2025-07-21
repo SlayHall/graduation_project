@@ -1,0 +1,4 @@
+source;share/LabVolt5250A0_description/local_setup.bash
+source;share/LabVolt5250A0_description/local_setup.dsv
+source;share/LabVolt5250A0_description/local_setup.sh
+source;share/LabVolt5250A0_description/local_setup.zsh
